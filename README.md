@@ -1,7 +1,7 @@
 
 # Meli Challenge
 
-Solarized dark             |  Solarized Ocean
+Detalle del producto           |  Vista perfil usuario
 :-------------------------:|:-------------------------:
 ![1](https://github.com/NicolasSoroka/meli-cx-challenge/assets/58704507/efe68b81-6fef-4974-8f79-75a669003f22)  |  ![2](https://github.com/NicolasSoroka/meli-cx-challenge/assets/58704507/d3c29401-5b53-4a9a-b36f-56eb7cb878ed)
 
