@@ -3,10 +3,10 @@ import NavbarMobile from "./Navbar/NavbarMobile";
 
 const Layout = ({ children }) => {
   return (
-    <div className="font-proximaNova">
+    <div className="font-proximaNova bg-meli_gray h-screen">
       <NavbarMobile/>
       <NavbarDesktop/>
-      <div className="container border-2 border-blue-600 m-auto">
+      <div className="container m-auto">
         {children}
       </div>
     </div>

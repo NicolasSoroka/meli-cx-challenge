@@ -5,10 +5,13 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Layout from "./components/Layout";
 import ProfilePage from "./pages/ProfilePage";
 import HomePage from "./pages/HomePage";
+import { ROUTES } from "./constants/routes";
+import ReactQueryProvider from "./providers/index";
+import PurchasePage from "./pages/PurchasePage";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: ROUTES.HOMEPAGE_URL,
     element: (
       <Layout>
         <HomePage />
@@ -16,10 +19,18 @@ const router = createBrowserRouter([
     ),
   },
   {
-    path: "/profile",
+    path: ROUTES.PROFILE_URL,
     element: (
       <Layout>
         <ProfilePage />
+      </Layout>
+    ),
+  },
+  {
+    path: `${ROUTES.PURCHASES_URL}/:purchaseId`,
+    element: (
+      <Layout>
+        <PurchasePage />
       </Layout>
     ),
   },
@@ -27,6 +38,8 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <ReactQueryProvider>
+      <RouterProvider router={router} />
+    </ReactQueryProvider>
   </React.StrictMode>
 );

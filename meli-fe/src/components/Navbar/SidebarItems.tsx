@@ -1,4 +1,4 @@
-import CheckIcon from "../CheckIcon";
+import CheckIcon from "../Icons/CheckIcon";
 
 const SidebarItem = ({ img, title, description }) => {
   return (
