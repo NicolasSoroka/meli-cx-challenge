@@ -1,5 +1,5 @@
 const Pagination = ({ postPerPage, totalPosts, setCurrentPage, currentPage}) => {
-  let pages = [];
+  const pages = [];
 
   for (let i = 1; i <= Math.ceil(totalPosts / postPerPage); i++) {
     pages.push(i);

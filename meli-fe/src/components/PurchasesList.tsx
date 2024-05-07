@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import PurchaseItem from "./PurchaseItem";
 import { getAllPurchases } from "../api/axios";
 import { useQuery } from "@tanstack/react-query";
