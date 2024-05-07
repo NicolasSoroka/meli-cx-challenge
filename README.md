@@ -1,6 +1,10 @@
 
 # Meli Challenge
 
+![1](https://github.com/NicolasSoroka/meli-cx-challenge/assets/58704507/efe68b81-6fef-4974-8f79-75a669003f22)
+![2](https://github.com/NicolasSoroka/meli-cx-challenge/assets/58704507/d3c29401-5b53-4a9a-b36f-56eb7cb878ed)
+![3](https://github.com/NicolasSoroka/meli-cx-challenge/assets/58704507/3e662811-15c4-4f14-b01d-2ed9d09f1122)
+
 Proyecto hecho con NodeJS y React (TypeScript) para mercadolibre.
 
 El sitio es una muestra de como realizar un frontend atomizado, manteniendo buenas practicas de estructura codigo limpio.
@@ -33,6 +37,8 @@ Desde la raiz instalamos las dependencias en ambos repositorios meli-fe (fronten
 ```
 
 No requiere configurar variables de entorno
+
+
 
 
     
