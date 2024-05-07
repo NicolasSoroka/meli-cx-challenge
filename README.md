@@ -9,10 +9,6 @@ Este repositorio es un [Template Repository](https://docs.github.com/en/reposito
 - El repositorio debe tener visibilidad `privada`
 - Una vez que finalices y nos compartas el challenge, te enviaremos los usuarios que van a revisar tu entregable para que los agregues
 
-## Tecnologías
-
-Solemos usar React para nuestros frontends y NodeJS para nuestros backends (con Express), pero siéntete libre de hacerlo en otra tecnología de **Javascript** si así lo prefieres.
-
 ## Frontend
 
 El frontend debe tener una ruta **/profile** en la cuál se podrá visualizar información general del usuario, un listado de sus compras, y se podrá acceder al detalle de cada una de estas.
